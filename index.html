@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="ne">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tamang Itta Suppliers | Chitwan</title>
+    <!-- Tailwind CSS Engine for instant high-end styling -->
+    <script src="https://tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cloudflare.com">
+    <style>
+        .chat-window { max-height: 320px; }
+    </style>
+</head>
+<body class="bg-stone-50 text-stone-900 font-sans antialiased">
+
+    <!-- Premium Sticky Header Configuration (Phone on Upper Left) -->
+    <header class="sticky top-0 z-50 bg-stone-950 text-white shadow-md border-b-4 border-orange-700">
+        <div class="max-w-6xl mx-auto px-4 py-3 flex justify-between items-center">
+            <div class="flex items-center gap-2">
+                <a href="tel:9845549811" class="text-xl sm:text-2xl font-black text-yellow-400 hover:text-yellow-300 transition flex items-center gap-2">
+                    <i class="fa-solid fa-phone text-red-500 animate-pulse"></i> 9845549811
+                </a>
+            </div>
+            <div class="text-xs sm:text-sm text-stone-300 font-bold bg-stone-900 px-3 py-1 rounded border border-stone-800">
+                📍 चितवन (Chitwan, Nepal)
+            </div>
+        </div>
+    </header>
+
+    <!-- Main Visual Banner Header Area -->
+    <section class="bg-stone-950 text-white py-12 px-4 text-center border-b border-stone-800 relative">
+        <div class="max-w-3xl mx-auto">
+            <h1 class="text-4xl sm:text-5xl font-black tracking-tight text-stone-100">Tamang Itta Suppliers</h1>
+            <h2 class="text-2xl sm:text-3xl font-bold text-orange-600 mt-2">तामाङ इट्टा सप्लायर्स</h2>
+            <p class="mt-4 text-stone-400 text-sm sm:text-base font-medium max-w-xl mx-auto">
+                मध्यस्थकर्ता (Agent) बिना सिधै हाम्रो आफ्नै इट्टा भट्टाबाट फ्याक्ट्रीको दर रेटमा खरिद गर्नुहोस्। चितवनबाट नेपालभर सुरक्षित ढुवानीको प्रत्याभूति।
+            </p>
+        </div>
+    </section>
+
+    <!-- Procurement Interface Architecture -->
+    <main class="max-w-6xl mx-auto px-4 py-10 grid grid-cols-1 lg:grid-cols-3 gap-8 items-start">
+        
+        <!-- Left Side: Product Grade Fields -->
+        <div class="lg:col-span-2 space-y-6">
+            <h3 class="text-xl font-black text-stone-900 border-b-2 border-stone-200 pb-2">📦 इट्टा विवरण तथा दर रेट</h3>
+            
+            <!-- Grade 1 Module -->
+            <div class="bg-white rounded-xl shadow border border-stone-200 overflow-hidden flex flex-col sm:flex-row">
+                <div class="sm:w-1/3 min-h-[160px] bg-stone-200">
+                    <img src="https://unsplash.com" class="w-full h-full object-cover" alt="१ नम्बर इट्टा भट्टा">
+                </div>
+                <div class="p-5 sm:w-2/3 flex flex-col justify-between">
+                    <div>
+                        <h4 class="text-lg font-black text-stone-900">१ नम्बर इट्टा (Grade 1 Brick)</h4>
+                        <p class="text-2xl font-black text-orange-700 mt-1">रु १६ <span class="text-xs text-stone-500 font-bold">/ प्रति पिस</span></p>
+                        <p class="text-xs text-stone-500 mt-1 font-semibold">न्यूनतम ढुवानी परिमाण: २,००० पिस (१ साना ट्रकलोड)</p>
+                    </div>
+                    <div class="mt-4 pt-3 border-t border-stone-100 flex items-center gap-3">
+                        <div class="w-1/2">
+                            <label class="block text-[11px] font-bold text-stone-500 uppercase mb-1">संख्या (पिस):</label>
+                            <input type="number" id="qty-1" value="2000" min="2000" step="1000" class="w-full bg-stone-50 border border-stone-300 rounded p-1.5 font-bold text-center text-stone-800">
+                        </div>
+                        <button onclick="orderViaWhatsApp('१ नम्बर इट्टा', 'qty-1')" class="w-1/2 mt-5 bg-emerald-600 hover:bg-emerald-700 text-white font-bold py-2.5 px-3 rounded flex items-center justify-center gap-2 text-sm shadow cursor-pointer transition">
+                            <i class="fa-brands fa-whatsapp text-lg"></i> व्हाट्सएप अर्डर
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Grade 2 Module -->
+            <div class="bg-white rounded-xl shadow border border-stone-200 overflow-hidden flex flex-col sm:flex-row">
+                <div class="sm:w-1/3 min-h-[160px] bg-stone-200">
+                    <img src="https://unsplash.com" class="w-full h-full object-cover" alt="२ नम्बर इट्टा भट्टा">
+                </div>
+                <div class="p-5 sm:w-2/3 flex flex-col justify-between">
+                    <div>
+                        <h4 class="text-lg font-black text-stone-900">२ नम्बर इट्टा (Grade 2 Brick)</h4>
+                        <p class="text-2xl font-black text-stone-800 mt-1">रु १४ <span class="text-xs text-stone-500 font-bold">/ प्रति पिस</span></p>
+                        <p class="text-xs text-stone-500 mt-1 font-semibold">न्यूनतम ढुवानी परिमाण: २,००० पिस (१ साना ट्रकलोड)</p>
+                    </div>
+                    <div class="mt-4 pt-3 border-t border-stone-100 flex items-center gap-3">
+                        <div class="w-1/2">
+                            <label class="block text-[11px] font-bold text-stone-500 uppercase mb-1">संख्या (पिस):</label>
+                            <input type="number" id="qty-2" value="2000" min="2000" step="1000" class="w-full bg-stone-50 border border-stone-300 rounded p-1.5 font-bold text-center text-stone-800">
+                        </div>
+                        <button onclick="orderViaWhatsApp('२ नम्बर इट्टा', 'qty-2')" class="w-1/2 mt-5 bg-emerald-600 hover:bg-emerald-700 text-white font-bold py-2.5 px-3 rounded flex items-center justify-center gap-2 text-sm shadow cursor-pointer transition">
+                            <i class="fa-brands fa-whatsapp text-lg"></i> व्हाट्सएप अर्डर
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Right Side: FULLY OPERATIONAL AI CUSTOMER REPRESENTATIVE -->
+        <div class="bg-white rounded-xl shadow-lg border-2 border-orange-700 overflow-hidden sticky top-24">
+            <div class="bg-stone-950 p-4 text-white flex items-center gap-3 border-b-2 border-orange-700">
+                <div class="w-8 h-8 rounded-full bg-orange-700 flex items-center justify-center font-bold text-white text-lg animate-bounce">🤖</div>
+                <div>
+                    <h4 class="font-black text-stone-100 text-sm">भट्टा मद्दत एजेन्ट (AI Assistant)</h4>
+                    <p class="text-[11px] text-green-400 font-bold">● अनलाइन सहायता प्रणाली सक्रिय छ</p>
+                </div>
+            </div>
+
+            <!-- Dynamic Chat View Window -->
+            <div id="display-chat" class="p-3 h-[280px] overflow-y-auto space-y-3 bg-stone-50 text-xs sm:text-sm">
+                <div class="flex items-start gap-2">
+                    <div class="bg-orange-100 text-stone-900 p-2.5 rounded-lg rounded-tl-none max-w-[90%] font-medium">
+                        नमस्ते! म तामाङ इट्टा सप्लायर्सको डिजिटल एजेन्ट हुँ। मलाई चितवनको फ्याक्ट्री ठेगाना, ढुवानी भाडा, मूल्य वा ट्रकलोड सम्बन्धी कुनै पनि जिज्ञासा सोध्नुहोस्!
+                    </div>
+                </div>
+            </div>
+
+            <!-- Message Action Inputs -->
+            <div class="p-2 border-t border-stone-200 bg-stone-100 flex gap-1.5">
+                <input type="text" id="query-field" placeholder="भाडा कति हो? ठेगाना कहाँ हो? टाइप गर्नुहोस्..." class="w-full p-2.5 rounded border border-stone-300 font-medium text-xs focus:outline-none focus:ring-2 focus:ring-orange-600" onkeypress="checkEnterKey(event)">
+                <button onclick="submitQuery()" class="bg-orange-700 hover:bg-orange-800 text-white font-bold px-4 py-2 rounded text-xs transition">पठाउनुहोस्</button>
+            </div>
+        </div>
+    </main>
+
+    <footer class="bg-stone-950 text-stone-500 text-center py-6 text-xs font-semibold border-t border-stone-900 mt-12">
+        <p>© 2026 Tamang Itta Suppliers, Chitwan, Nepal. All Rights Reserved.</p>
+    </footer>
+
+    <!-- Native Dynamic Application Execution Control Scripts -->
+    <script>
+        // TRUTH RULES NATIVE PROCESSING DICTIONARY FOR THE REAL AI BOT
+        function processQueryText(userInput) {
+            var normalized = userInput.toLowerCase();
+            
+            if (normalized.includes('भाडा') || normalized.includes('delivery') || normalized.includes('transport') || normalized.includes('cost')) {
+                return "🚚 <b>भाडा र ढुवानी विवरण:</b> इट्टाको रेट फिक्स भट्टाको दर रेट (१ नम्बरको रु १६ र २ नम्बरको रु १४) हो। चितवन जिल्ला भित्र लोकल दुरी अनुसार भाडा कम लाग्छ। काठमाडौं, पोखरा वा अन्य बाहिरी जिल्ला पठाउँदा दूरी अनुसार थप ढुवानी भाडा लाग्नेछ। निश्चित भाडा बुझ्न म्यानेजरलाई सिधै <b>9845549811</b> मा कल गर्नुहोला।";
+            }
+            if (normalized.includes('ठेगाना') || normalized.includes('कहाँ') || normalized.includes('location') || normalized.includes('where') || normalized.includes('factory') || normalized.includes('bhatta') || normalized.includes('chitwan')) {
+                return "📍 <b>हाम्रो ठेगाना:</b> तामाङ इट्टा सप्लायर्स मुख्य रूपमा <b>चितवन, नेपाल</b> मा अवस्थित हाम्रो आफ्नै इट्टा भट्टा (Kiln Factory) बाट संचालित छ। हामी चितवनबाट नेपालभर सिधै इट्टा ट्रकमा लोड गरी सप्लाई गर्छौ।";
+            }
+            if (normalized.includes('कति') || normalized.includes('परिमाण') || normalized.includes('truck') || normalized.includes('quantity') || normalized.includes('moq') || normalized.includes('पिस')) {
